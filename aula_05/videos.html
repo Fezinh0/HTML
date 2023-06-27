@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalhando com videos</title>
+    <link rel="icon" href="midia/images/icon.jepg.png">
+</head>
+
+<body>
+    <h1>Inserindo música e video</h1>
+    <p>Para inserir uma música Mp3 em sua página web o arquivo <b>deve</b> estar em uma pasta junto com o site, no nosso
+        caso temos a pasta mídia</p>
+    <!-- Seção/sessão de audios-->
+    <audio controls>
+        <source src="audio/metalica_nothing.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <br>
+    <!-- Seção/sessão de videos-->
+    <section>
+        <p>Veja os videos a seguir:</p>
+        <video controls>
+            <source src="midia/video/london.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+        </video>
+    </section>
+    <br>
+
+    <section>
+        <p>Video do Pink e Floyd a seguir:</p>
+        <video controls>
+            <source src="midia/video/pink-floyd.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+        </video>
+    </section>
+    <br>
+    <selection>
+        <video controls>
+            <source src="midia/video/pink-floyd.mp4" type="movie.ogg">
+            <source src="midia/video/pink-floyd.mp4" type="video;ogg">
+            <source src="midia/video/pink-floyd.mp4" type="video/webm">
+
+            <track kind="subtitles" srclang="pt-br" src="video/legenda-ptbr.vtt.txt" label="portugues brasil" default>
+            <track kind="subtitles" srclang="pt-br" src="video/legenda-en.vtt.txt" label="English EUA" default>
+        </video>
+    </selection>
+
+    <p>Existe outra forma de inserir o video sem ter um arquivo, por meio do Youtube</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vQUgZKbchV4" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+</body>
+
+</html>

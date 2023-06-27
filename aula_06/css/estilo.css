@@ -1,0 +1,39 @@
+#form{
+    width: 550px;
+    height: 650px;
+    background-color:rgb(4, 223, 77);
+    top: 260px;
+    left: 20px;
+    position:fixed; 
+    align-items: center;
+    border-radius: 15px;
+}
+
+#nome{
+    width: 150px;
+    border: 150px;
+    color: black;
+    border-radius: 180px;
+    border-color: white;
+    background-color: white;
+}
+#email{
+    width: 150px;
+    border: 150px;
+    color: black;
+    border-radius: 180px;
+    border-color: white;
+    background-color: white;
+}
+#tel{
+    width: 150px;
+    border: 150px;
+    color: black;
+    border-radius: 180px;
+    border-color: white;
+    background-color: white;
+}
+#bt{
+    color: blue;
+    border-radius: 15px;
+}
